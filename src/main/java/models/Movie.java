@@ -10,6 +10,9 @@ import java.util.List;
 public class Movie {
     private String title;
     private Director director;
-    private int productionYear;
     private List<Actor> actorList;
+
+    public List<Actor> getListOfActors() {
+        return actorList;
+    }
 }
