@@ -28,7 +28,7 @@ public class UserInputHandler {
 
     private static int getSelectedOptionFromUser() {
         int result = getIntegerFromUser();
-        scan.nextLine();
+        scan.nextLine();  // todo: na *uj jest ta linia?!
         if (result > 0 && result < MenuOptions.values().length + 1) {
             return result;
         } else {
